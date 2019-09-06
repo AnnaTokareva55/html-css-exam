@@ -1,0 +1,479 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url('../fonts/raleway-bold.eot');
+    src: url('../fonts/raleway-boldk.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold.woff2') format('woff2'),
+         url('../fonts/raleway-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1920px;
+	margin: 0 auto;
+}
+
+.main-header {
+	width: 100%;
+	min-height: 1024px;
+	background-image: url(../img/header-background.jpg);
+	background-repeat: no-repeat;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.logo-nav {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.logo-link {
+	width: 185px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.logo-icon {
+	fill: #ffffff;
+}
+
+.logo-txt {
+	font-family: Raleway;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+}
+
+.logo-link:hover .logo-icon {
+	fill: #c7b299;
+}
+
+.logo-link:hover .logo-txt {
+	color: #c7b299;
+}
+
+.logo-link:active .logo-icon {
+	fill: #ffffff;
+}
+
+.logo-link:active .logo-txt {
+	color: #ffffff;
+}
+
+.main-nav {
+	width: 795px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-menu-list li {
+	list-style-type: none;
+	float: left;
+	margin: 0 30px 0 0;
+}
+
+.main-menu-list li a {
+	text-decoration: none;
+	font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.main-menu-list li:hover a {
+	color: #c7b299;
+}
+
+.main-menu-list li:active a {
+	color: #ffffff;
+}
+
+.button-cart {
+	background-color: transparent;
+	border: none;
+	margin: 0 0 0 30px;
+}
+
+.cart-icon {
+	fill: #ffffff;
+}
+
+.button-cart:focus {
+	outline: none;
+}
+
+.button-cart:hover .cart-icon {
+	fill: #c7b299;
+}
+
+.button-cart:active .cart-icon {
+	fill: #ffffff;
+}
+
+.button-search {
+	background-color: transparent;
+	border: none;
+	margin: 0 0 0 30px;
+}
+
+.search-icon {
+	fill: #ffffff;
+}
+
+.button-search:focus {
+	outline: none;
+}
+
+.button-search:hover .search-icon {
+	fill: #c7b299;
+}
+
+.button-search:active .search-icon {
+	fill: #ffffff;
+}
+
+.slider {
+	margin: 260px 0 0 0;
+	min-height: 620px;
+	padding: 0 110px 0 110px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+.slider-link-icon {
+	fill: #ffffff;
+}
+
+.slider-link:hover .slider-link-icon{
+	fill: #c7b299;
+}
+
+.slider-link:active .slider-link-icon{
+	fill: #ffffff;
+}
+
+.slider-body {
+	width: 590px;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 470px 0 470px;
+}
+
+.slider-h2 {
+	font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+}
+
+.slider-h1 {
+	font-family: Raleway-bold;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+.slider-txt {
+	font-family: Montserrat;
+	text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0 0 55px 0;
+}
+
+.slider-button {
+	width: 170px;
+    min-height: 53px;
+    background-color: #998675;
+    border-radius: 3px;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+}
+
+.slider-button:focus {
+	outline: none;
+}
+
+.slider-button:hover {
+	box-shadow: 5px 5px 5px #000;
+}
+
+.slider-button:active {
+	box-shadow: none;
+}
+
+.slider-pag {
+	width: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.slider-pag-link {
+	display: block;
+	width: 11px;
+	min-height: 11px;
+	border-radius: 50%;
+	margin: 10px;
+    background-color: #ffffff;
+    border: 2px solid transparent;
+    opacity: 0.5;
+}
+
+.slider-pag-link:hover {
+	border: 2px solid #ffffff;
+    background-color: transparent;
+}
+
+.slider-pag-link:active {
+	background-color: #ffffff;
+    border: 2px solid transparent;
+}
+
+.services {
+	width: 100%;
+	padding: 80px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+
+.service-block {
+	width: 305px;
+	padding: 0 15px 0 15px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.service-block:after {
+	content: "";
+	display: block;
+	width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+}
+
+.service-icon {
+	fill: #555555;
+	margin: 0 0 25px 0;
+}
+
+.service-title {
+	font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    margin: 0 0 15px 0;
+}
+
+.service-txt {
+	font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 0 0 30px 0;
+}
+
+.service-block:hover .service-icon {
+	fill: #c7b299;
+}
+
+.service-block:hover .service-title {
+	color: #c7b299;
+}
+
+.service-block:hover:after {
+	background-color: #c7b299;
+}
+
+.service-block:active .service-icon {
+	fill: #555555;
+}
+
+.service-block:active .service-title {
+	color: #555555;
+}
+
+.service-block:active:after {
+	background-color: #555555;
+}
+
+.realization {
+	width: 100%;
+	padding: 80px 80px 0 80px;
+	box-sizing: border-box;
+	background-color: #fbfaf8;
+	text-align: center;
+}
+
+.realization-title {
+	font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    margin: 0 0 25px 0;
+}
+
+.realization-txt {
+	display: inline-block;
+	width: 770px;
+	font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 0 0 40px 0;
+}
+
+.realization-img {
+	width: 100%;
+	min-height: 482px;
+	position: relative;
+}
+
+.realization-left {
+	position: absolute;
+	left: 260px;
+	bottom: 0;
+	z-index: 2;
+}
+
+.realization-center {
+	position: absolute;
+	left: 495px;
+	bottom: 0;
+	z-index: 3;
+}
+
+.realization-right {
+	position: absolute;
+	right: 260px;
+	bottom: 0;
+	z-index: 1;
+}
+
+.realization-left:hover {
+	z-index: 4;
+}
+
+.realization-right:hover {
+	z-index: 4;
+}
+
+.purchase {
+	width: 100%;
+	padding: 45px 370px;
+	box-sizing: border-box;
+	background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+	display: flex;
+	justify-content: space-between;
+}
+
+.purchase-name {
+	font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #c7b299;
+}
+
+.purchase-title {
+	font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+}
+
+.purchase-txt {
+	font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+}
+
+.purchase-button {
+	width: 170px;
+    height: 50px;
+    background-color: #998675;
+    border-radius: 3px;
+    border: none;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.purchase-button:focus {
+	outline: none;
+}
+
+.purchase-button:hover {
+	box-shadow: 5px 5px 5px #000;
+}
+
+.purchase-button:active {
+	box-shadow: none;
+}
